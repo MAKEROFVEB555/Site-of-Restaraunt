@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="restaraunt">
+          <li class="nav-item"><a href="">Меню</a></li>
+          <li class="nav-item"><a href="">Винная карта</a></li>
+          <li class="nav-item"><a href="">Ланч-меню</a></li>
+          <li class="nav-item"><a href="">Контакты</a></li>
+        </ul>
+
+        <div class="phonenumber">
+          <img class="phonephoto" src="images/phone.png" alt="" />
+          <p>Номер телефона</p>
+        </div>
+      </nav>
+
+      <div class="about">
+        <p>Каждый день с 07:00 до 21:00</p>
+
+        <h1>Кафе Трио ( основное меню и ланч )</h1>
+
+        <div class="butticon">
+          <button class="table">Заказать стол</button>
+
+          <div class="icons">
+            <img
+              class="icon"
+              src="images/social_media_btn/media_btn.png"
+              alt=""
+            />
+            <img
+              class="icon"
+              src="images/social_media_btn/media_btn-2.png"
+              alt=""
+            />
+            <img
+              class="icon"
+              src="images/social_media_btn/media_btn-3.png"
+              alt=""
+            />
+            <img
+              class="icon"
+              src="images/social_media_btn/media-btn-4.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="modal hidden">
+      <h1>Заказать стол</h1>
+
+      <div class="inputs">
+        <div class="pool1">
+          <p>Имя</p>
+
+          <input class="placeholder1" placeholder="Имя" type="text" />
+        </div>
+
+        <div class="pool2">
+          <p>Почта</p>
+
+          <input class="placeholder2" placeholder="email" type="email" />
+        </div>
+      </div>
+
+      <p class="request">Подробно о вашем столике</p>
+
+      <textarea
+        class="textarea"
+        placeholder="Описание"
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+      ></textarea>
+
+      <button class="send">Отправить</button>
+    </div>
+
+    <div class="overlay hidden"></div>
+
+    <main>
+      <div class="content">
+        <div class="content-left">
+          <div class="day">
+            <h2>Понедельник</h2>
+
+            <p>
+              Суп Буйабес
+              <span>
+                <img src="images/dot.png" alt="" />
+                <img src="images/dot.png" alt="" /><img
+                  src="images/dot.png"
+                  alt=""
+                /> </span
+              >Салат Цезарь
+            </p>
+          </div>
+
+          <div class="day">
+            <h2>Вторник</h2>
+
+            <p>
+              Суп сырный с курицей
+              <span>
+                <img src="images/dot.png" alt="" />
+                <img src="images/dot.png" alt="" /><img
+                  src="images/dot.png"
+                  alt=""
+                /> </span
+              >Тельятелле
+            </p>
+          </div>
+
+          <div class="day">
+            <h2>Среда</h2>
+            <p>
+              Салат Капрезе
+              <span>
+                <img src="images/dot.png" alt="" />
+                <img src="images/dot.png" alt="" /><img
+                  src="images/dot.png"
+                  alt=""
+                /> </span
+              >Крылышки в соусе Террияки
+            </p>
+          </div>
+
+          <div class="day">
+            <h2>Четверг</h2>
+            <p>
+              Крем-суп с брокколли
+              <span>
+                <img src="images/dot.png" alt="" />
+                <img src="images/dot.png" alt="" /><img
+                  src="images/dot.png"
+                  alt=""
+                /> </span
+              >Феттучини с говядиной
+            </p>
+          </div>
+
+          <div class="day">
+            <h2>Пятница</h2>
+            <p>
+              Суп Томатный с мидиями
+              <span>
+                <img src="images/dot.png" alt="" />
+                <img src="images/dot.png" alt="" /><img
+                  src="images/dot.png"
+                  alt=""
+                /> </span
+              >Жареный скат
+            </p>
+          </div>
+        </div>
+
+        <div class="content-right">
+          <div class="content-right-bg"></div>
+
+          <div class="content-right-images">
+            <img class="img1" src="images/sec1_photo.png" alt="" />
+            <img class="img2" src="images/sec1_photo_2.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="aboutinfo">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="images/кавычки.png" alt="" />
+
+              <h2>Преимущества ресторана</h2>
+              <p>
+                Мы гордимся использованием только самых свежих и качественных
+                ингредиентов. Каждое блюдо приготовлено с любовью и заботой о
+                вашем здоровье.
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="images/кавычки.png" alt="" />
+
+              <h2>Кулинарные шедевры</h2>
+              <p>
+                Наши талантливые повара создают блюда, которые погружают вас в
+                настоящие гастрономические приключения. Откройте для себя
+                удивительные комбинации вкусов.
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="images/кавычки.png" alt="" />
+
+              <h2>Гастрономический рай для вегетарианцев</h2>
+              <p>
+                Мы понимаем важность разнообразия в питании и предлагаем широкий
+                выбор блюд, которые удовлетворят самых взыскательных гурманов.
+                Попробуйте наши богатые и сочные овощные салаты, приготовленные
+                с истинной страстью к здоровому питанию.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
